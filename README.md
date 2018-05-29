@@ -62,7 +62,7 @@ ___
 ### 具体DP
 对各模式的测试代码位于example目录，其中又按模式功能分为三类：创建型模式CREATIONAL、结构型模式STRUCTURAL、行为型模式BEHAVIOURAL。其分布如下：
 - 创建型
-  - AbstractFactory - *抽象工厂*
+  - AbstractFactory - [*抽象工厂*](./example/CREATIONAL/AbstractFactory/抽象工厂.md)
   - Builder - *建造者模式*
   - FactoryMethod - *工厂方法*
   - Prototype - *原型模式*
