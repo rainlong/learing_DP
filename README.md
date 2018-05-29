@@ -61,29 +61,29 @@ ___
 ___
 ### 具体DP
 对各模式的测试代码位于example目录，其中又按模式功能分为三类：创建型模式CREATIONAL、结构型模式STRUCTURAL、行为型模式BEHAVIOURAL。其分布如下：
-- 创建型
+- [创建型](./example/CREATIONAL/ "")
   - AbstractFactory - [*抽象工厂*](./example/CREATIONAL/AbstractFactory/抽象工厂.md "查看抽象工厂的说明")
-  - Builder - *建造者模式*
-  - FactoryMethod - *工厂方法*
-  - Prototype - *原型模式*
-  - Singleton - *单例模式 *
-- 结构型
-  - Adapter - *适配器模式*
-  - Bridge - *桥接模式*
-  - Composite - *组合模式*
-  - Decorator - *装饰器模式*
-  - Facade - *外观模式*
-  - Flyweight - *享元模式*
-  - Proxy - *代理模式*
-- 行为型
-  - ChainOfResponsibility - *职责链模式*
-  - Command - *命令模式*
-  - Interpreter - *解释器模式*
-  - Iterator - *迭代器模式*
-  - Mediator - *中介者模式*
-  - Mementor - *备忘录模式*
-  - Observer - *观察者模式*
-  - State - *状态模式*
-  - Strategy - *策略模式*
-  - Template - *模板模式*
-  - Visitor - *访问者模式*
+  - Builder - [*建造者模式*](./example/CREATIONAL/Builder/建造者.md " 查看建造者模式的说明")
+  - FactoryMethod - [*工厂方法*](./example/CREATIONAL/FactoryMethod/工厂方法.md "查看工厂方法模式的说明")
+  - Prototype - [*原型模式*](. "")
+  - Singleton - [*单例模式 *](. "")
+- [结构型](. "")
+  - Adapter - [*适配器模式*](. "")
+  - Bridge - [*桥接模式*](. "")
+  - Composite - [*组合模式*](. "")
+  - Decorator - [*装饰器模式*](. "")
+  - Facade - [*外观模式*](. "")
+  - Flyweight - [*享元模式*](. "")
+  - Proxy - [*代理模式*](. "")
+- [行为型](. "")
+  - ChainOfResponsibility - [*职责链模式*](. "")
+  - Command - [*命令模式*](. "")
+  - Interpreter - [*解释器模式*](. "")
+  - Iterator - [*迭代器模式*](. "")
+  - Mediator - [*中介者模式*](. "")
+  - Mementor - [*备忘录模式*](. "")
+  - Observer - [*观察者模式*](. "")
+  - State - [*状态模式*](. "")
+  - Strategy - [*策略模式*](. "")
+  - Template - [*模板模式*](. "")
+  - Visitor - [*访问者模式*](. "")
