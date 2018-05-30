@@ -86,4 +86,4 @@ ___
   - State - [*状态模式*](./example/BEHAVIOURAL/State/ "查看状态模式的说明")
   - Strategy - [*策略模式*](./example/BEHAVIOURAL/Strategy/策略.md "查看策略模式的说明")
   - Template - [*模板模式*](./example/BEHAVIOURAL/Template/模板.md "查看模板模式的说明")
-  - Visitor - [*访问者模式*](./example/BEHAVIOURAL/Visitor/ "查看访问者模式的说明")
+  - Visitor - [*访问者模式*](./example/BEHAVIOURAL/Visitor/访问者.md "查看访问者模式的说明")
