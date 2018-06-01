@@ -1,5 +1,35 @@
 ## 学习设计模式
 ___
+### 具体DP
+对各模式的测试代码位于example目录，其中又按模式功能分为三类：创建型模式CREATIONAL、结构型模式STRUCTURAL、行为型模式BEHAVIOURAL。其分布如下：
+- [创建型](./example/CREATIONAL/ "")
+  - AbstractFactory - [*抽象工厂*](./example/CREATIONAL/AbstractFactory/抽象工厂.md "查看抽象工厂的说明")
+  - Builder - [*建造者模式*](./example/CREATIONAL/Builder/建造者.md " 查看建造者模式的说明")
+  - FactoryMethod - [*工厂方法*](./example/CREATIONAL/FactoryMethod/工厂方法.md "查看工厂方法模式的说明")
+  - Prototype - [*原型模式*](./example/CREATIONAL/Prototype/原型.md "查看原型模式的说明")
+  - Singleton - [*单例模式*](./example/CREATIONAL/Singleton/单例.md "查看单例模式的说明")
+- [结构型](./example/STRUCTURAL/ "")
+  - Adapter - [*适配器模式*](./example/STRUCTURAL/Adapter/适配器.md "查看适配器模式的说明")
+  - Bridge - [*桥接模式*](./example/STRUCTURAL/Bridge/桥接.md "查看桥接模式的说明")
+  - Composite - [*组合模式*](./example/STRUCTURAL/Composite/组合.md "查看组合模式的说明")
+  - Decorator - [*装饰器模式*](./example/STRUCTURAL/Decorator/装饰器.md "查看装饰器模式的说明")
+  - Facade - [*外观模式*](./example/STRUCTURAL/Facade/外观.md "查看外观模式的说明")
+  - Flyweight - [*享元模式*](./example/STRUCTURAL/Flyweight/享元.md "查看享元模式的说明")
+  - Proxy - [*代理模式*](./example/STRUCTURAL/Proxy/代理.md "查看代理模式的说明")
+- [行为型](./example/BEHAVIOURAL/ "")
+  - ChainOfResponsibility - [*职责链模式*](./example/BEHAVIOURAL/ChainOfResponsibility/职责链.md "查看职责链模式的说明")
+  - Command - [*命令模式*](./example/BEHAVIOURAL/Command/命令.md "查看命令模式的说明")
+  - Interpreter - [*解释器模式*](./example/BEHAVIOURAL/Interpreter/解释器.md "查看解释器模式的说明")
+  - Iterator - [*迭代器模式*](./example/BEHAVIOURAL/Iterator/迭代器.md "查看迭代器模式的说明")
+  - Mediator - [*中介者模式*](./example/BEHAVIOURAL/Mediator/中介者.md "查看中介者模式的说明")
+  - Mementor - [*备忘录模式*](./example/BEHAVIOURAL/Memento/备忘录.md "查看备忘录模式的说明")
+  - Observer - [*观察者模式*](./example/BEHAVIOURAL/Observer/观察者.md "查看观察者模式的说明")
+  - State - [*状态模式*](./example/BEHAVIOURAL/State/状态.md "查看状态模式的说明")
+  - Strategy - [*策略模式*](./example/BEHAVIOURAL/Strategy/策略.md "查看策略模式的说明")
+  - Template - [*模板模式*](./example/BEHAVIOURAL/Template/模板.md "查看模板模式的说明")
+  - Visitor - [*访问者模式*](./example/BEHAVIOURAL/Visitor/访问者.md "查看访问者模式的说明")
+
+___
 ### 设计模式六大原则
 ##### 1. 单一职责原则（Single Responsibility Principle, SRP）
 
@@ -57,33 +87,3 @@ ___
   + 如果其中的一个对象需要调用另一个对象的某一个方法的话，可以通过第三者转发这个调用。简言之，就是通过引入一个合理的第三者来降低现有对象之间的耦合度。
 
   + <sup>[1]</sup>在类的*划分*上，应当尽量**创建松耦合**的类，类之间的耦合度越低，就越有利于复用，一个处在松耦合中的类一旦被修改，不会对关联的类造成太大波及；<sup>[2]</sup>在类的*结构设计*上，每一个类都应当尽量**降低其成员变量和成员函数的访问权限**；<sup>[3]</sup>在*类的设计*上，只要有可能，一个类型应当设计成**不变类**；<sup>[4]</sup>在*对其他类的引用*上，一个对象对其他对象的**引用应当降到最低**。
-
-___
-### 具体DP
-对各模式的测试代码位于example目录，其中又按模式功能分为三类：创建型模式CREATIONAL、结构型模式STRUCTURAL、行为型模式BEHAVIOURAL。其分布如下：
-- [创建型](./example/CREATIONAL/ "")
-  - AbstractFactory - [*抽象工厂*](./example/CREATIONAL/AbstractFactory/抽象工厂.md "查看抽象工厂的说明")
-  - Builder - [*建造者模式*](./example/CREATIONAL/Builder/建造者.md " 查看建造者模式的说明")
-  - FactoryMethod - [*工厂方法*](./example/CREATIONAL/FactoryMethod/工厂方法.md "查看工厂方法模式的说明")
-  - Prototype - [*原型模式*](./example/CREATIONAL/Prototype/原型.md "查看原型模式的说明")
-  - Singleton - [*单例模式*](./example/CREATIONAL/Singleton/单例.md "查看单例模式的说明")
-- [结构型](./example/STRUCTURAL/ "")
-  - Adapter - [*适配器模式*](./example/STRUCTURAL/Adapter/适配器.md "查看适配器模式的说明")
-  - Bridge - [*桥接模式*](./example/STRUCTURAL/Bridge/桥接.md "查看桥接模式的说明")
-  - Composite - [*组合模式*](./example/STRUCTURAL/Composite/组合.md "查看组合模式的说明")
-  - Decorator - [*装饰器模式*](./example/STRUCTURAL/Decorator/装饰器.md "查看装饰器模式的说明")
-  - Facade - [*外观模式*](./example/STRUCTURAL/Facade/外观.md "查看外观模式的说明")
-  - Flyweight - [*享元模式*](./example/STRUCTURAL/Flyweight/享元.md "查看享元模式的说明")
-  - Proxy - [*代理模式*](./example/STRUCTURAL/Proxy/代理.md "查看代理模式的说明")
-- [行为型](./example/BEHAVIOURAL/ "")
-  - ChainOfResponsibility - [*职责链模式*](./example/BEHAVIOURAL/ChainOfResponsibility/职责链.md "查看职责链模式的说明")
-  - Command - [*命令模式*](./example/BEHAVIOURAL/Command/命令.md "查看命令模式的说明")
-  - Interpreter - [*解释器模式*](./example/BEHAVIOURAL/Interpreter/解释器.md "查看解释器模式的说明")
-  - Iterator - [*迭代器模式*](./example/BEHAVIOURAL/Iterator/迭代器.md "查看迭代器模式的说明")
-  - Mediator - [*中介者模式*](./example/BEHAVIOURAL/Mediator/中介者.md "查看中介者模式的说明")
-  - Mementor - [*备忘录模式*](./example/BEHAVIOURAL/Memento/备忘录.md "查看备忘录模式的说明")
-  - Observer - [*观察者模式*](./example/BEHAVIOURAL/Observer/观察者.md "查看观察者模式的说明")
-  - State - [*状态模式*](./example/BEHAVIOURAL/State/状态.md "查看状态模式的说明")
-  - Strategy - [*策略模式*](./example/BEHAVIOURAL/Strategy/策略.md "查看策略模式的说明")
-  - Template - [*模板模式*](./example/BEHAVIOURAL/Template/模板.md "查看模板模式的说明")
-  - Visitor - [*访问者模式*](./example/BEHAVIOURAL/Visitor/访问者.md "查看访问者模式的说明")
